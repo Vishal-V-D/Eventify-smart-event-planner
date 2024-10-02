@@ -1,0 +1,1 @@
+# Eventify-smart-event-planner
