@@ -78,7 +78,7 @@ const Contact = () => {
     };
 
     emailjs
-      .send('service_b7hqv3p', 'template_6jqdg55', templateParams, 'YGLHTEqxPVieoxx1TN')
+      .send('service_id', 'template_id', templateParams, 'public_id')
       .then(
         (result) => {
           alert('Email sent successfully!');
