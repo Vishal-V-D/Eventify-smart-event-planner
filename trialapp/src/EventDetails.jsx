@@ -94,7 +94,7 @@ function EventDetails() {
       support_link: "https://your-support-link.com"
     };
 
-    emailjs.send('service_b7hqv3p', 'template_xpb3qmh', templateParams, 'GLHTEqxPVieoxx1TN')
+    emailjs.send('service_id', 'template_id', templateParams, 'public_id')
       .then(() => {
         navigate('/confirmation', { state: { event, formData } });
       })
